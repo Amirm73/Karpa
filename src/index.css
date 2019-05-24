@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* background: #303F9F; */
+    background: #536DFE;
+    color: #FFFFFF;
+}
+
+.login-btn {
+    position: fixed;
+    bottom: 12px; right: 12px;
+    color: #FFFFFF;
+}
+
+.timer-presenter {
+    font-size: 72px;
+    color: aliceblue;
+    margin: 18px;
+}
+
+.timer-container , .form-feild, .setting-container, .report-container {
+    grid-column: 2/4;
+}
+
+.setting-container { 
+    margin: 4em
+}
+.timer-container  {
+    margin-top: 4em 2em;
+}
+
+.staff-section, .form-section, .dash-section {
+    display: grid;
+    grid-template-columns: 1fr auto auto 1fr;
+}
+
+.form-section {
+    margin: 5em;
+    font-size: 1.1em;
+    color: #FFFFFF;
+
+}
+
+.play-btn, .submit-btn  {
+    color: #FFFFFF;
+    grid-column: 2/4;
+    margin: 0 1.1em;
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #2196f3;
+    border: 0;
+}
+ .submit-btn,.logout-btn  {
+    color: #FFFFFF;
+    grid-column: 2/4;
+    margin:  1.1em 0;
+    padding:  .4em 5.5em;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #2196f3;
+    border: 0;
+}
